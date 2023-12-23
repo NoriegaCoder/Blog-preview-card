@@ -2,6 +2,7 @@ html{
     font-size: 16px;
     line-height: 1.5;
     background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
 }
 
 *, *::before, *::after {
@@ -10,6 +11,62 @@ html{
 
 body{
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+.mainframe{
+    height: fit-content;
+    width: 380px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    min-height: fit-content;
+    border-radius: 20px;
+    box-shadow: 15px 15px 0;
+    justify-content: center;
+    padding: 20px;
+}
 
+img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: fit-content;
+
+
+}
+.hiperTexto a{
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+.hiperTexto a:hover{
+    color: hsl(47, 88%, 63%);;
+}
+
+.mainText{
+    color: hsl(0, 0%, 50%);
+}
+
+.autor{
+    display: flex;
+    
+}
+
+.autor a{
+    align-self: center;
+    padding-left: 10px;
+
+}
+
+h1{
+    font-size: 24px;
+}
